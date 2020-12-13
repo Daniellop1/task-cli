@@ -1,0 +1,28 @@
+{
+  "name": "@daniellop1/dglobal-tasks",
+  "version": "1.2.5",
+  "description": "Create tasks direcly in the terminal",
+  "main": "index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniellop1/task-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/lowdb": "^1.0.9",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "lowdb": "^1.0.0"
+  }
+}
